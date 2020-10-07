@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun rollDice() {
-        val randomInt = Random().nextInt(6) + 1
+        val randomInt = Random().nextInt(2) + 1 //Solo salen 3 caras del dado
         val drawableResource = when (randomInt) {
             1 -> R.drawable.dice_1
             2 -> R.drawable.dice_2
