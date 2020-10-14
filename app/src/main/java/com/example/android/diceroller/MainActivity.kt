@@ -23,32 +23,34 @@ import androidx.appcompat.app.AppCompatActivity
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
-
+    //contenedor de imagenes
     lateinit var diceImage: ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-
-        val rollButton: Button = findViewById(R.id.roll_button)
+        //se carga el layout de la app
+        setContentView(R.layout.activity_main) //R es el directorio res, layout es la subcarpeta layout, y el activity_main es el xml que contiene la interfaz de la app
+        //Se carga el boton
+        val rollButton: Button = findViewById(R.id.roll_button) //findviewbyid es la funcion que busca el xml con el id roll_button
+        //Cuando el usuario interactua con el boton ejecuta la funcion rolldice
         rollButton.setOnClickListener {
             rollDice()
         }
-
+        //se carga la imagen inicial
         diceImage = findViewById(R.id.dice_image)
     }
 
     private fun rollDice() {
-        val randomInt = Random().nextInt(2) + 1 //Solo salen 3 caras del dado
-        val drawableResource = when (randomInt) {
-            1 -> R.drawable.dice_1
-            2 -> R.drawable.dice_2
-            3 -> R.drawable.dice_3
-            4 -> R.drawable.dice_4
-            5 -> R.drawable.dice_5
-            else -> R.drawable.dice_6
+        val randomInt = Random().nextInt(2) + 1 //numero aleatorio entre 1 y 3
+        val drawableResource = when (randomInt) { //devuelve la imagen que se mostrará en pantalla
+            1 -> R.drawable.dice_1 //cara 1
+            2 -> R.drawable.dice_2 //cara 2
+            3 -> R.drawable.dice_3 //cara 3
+            4 -> R.drawable.dice_4 //cara 4
+            5 -> R.drawable.dice_5 //cara 5
+            else -> R.drawable.dice_6 //cara 6
         }
-
+        //Carga la imagen obtenida de la funcion anterior
         diceImage.setImageResource(drawableResource)
     }
 }
