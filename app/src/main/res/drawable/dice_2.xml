@@ -50,7 +50,7 @@
         android:fillColor="#78c257"
         android:pathData="M520.85,303.25a16.9,28.71 97.07,1 0,4.16 -33.54a16.9,28.71 97.07,1 0,-4.16 33.54z" />
     <path
-        android:fillColor="#E91E63"
+        android:fillColor="#FFEB3B"
         android:pathData="M273.33,291.99a16.9,28.71 97.07,1 0,4.16 -33.54a16.9,28.71 97.07,1 0,-4.16 33.54z" />
         <!--Cara 3-->
     <path

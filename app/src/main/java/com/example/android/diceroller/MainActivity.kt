@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity() {
             4 -> R.drawable.dice_4 //cara 4
             5 -> R.drawable.dice_5 //cara 5
             6 -> R.drawable.dice_6 //cara 6
-            else -> R.drawable.cixxyderp2 //cara derp
+            else -> R.drawable.images //cara derp
         }
         //Carga la imagen obtenida de la funcion anterior
         diceImage.setImageResource(drawableResource)

@@ -54,7 +54,7 @@
         android:fillColor="#8BC34A"
         android:pathData="M297.17,539.02a30.12,16.11 53.82,1 0,26.01 -19.02a30.12,16.11 53.82,1 0,-26.01 19.02z" />
     <path
-        android:fillColor="#E91E63"
+        android:fillColor="#FFEB3B"
         android:pathData="M161.96,588.24a30.12,16.11 53.82,1 0,26.01 -19.02a30.12,16.11 53.82,1 0,-26.01 19.02z" />
         <!--Cara 3 -->
     <path

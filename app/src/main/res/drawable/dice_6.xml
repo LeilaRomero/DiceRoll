@@ -53,7 +53,7 @@
         android:fillColor="#78c257"
         android:pathData="M537.57,298.78a16.9,28.71 97.07,1 0,4.16 -33.54a16.9,28.71 97.07,1 0,-4.16 33.54z" />
     <path
-        android:fillColor="#FF4747"
+        android:fillColor="#BF47FF"
         android:pathData="M397.17,213.3a16.9,28.71 97.07,1 0,4.16 -33.54a16.9,28.71 97.07,1 0,-4.16 33.54z" />
     <path
         android:fillColor="#03A9F4"
@@ -79,6 +79,6 @@
         android:fillColor="#78c257"
         android:pathData="M483.54,554.83a30.12,16.11 126.18,1 0,35.56 -48.62a30.12,16.11 126.18,1 0,-35.56 48.62z" />
     <path
-        android:fillColor="#E91E63"
+        android:fillColor="#FFEB3B"
         android:pathData="M618.75,604.04a30.12,16.11 126.18,1 0,35.56 -48.62a30.12,16.11 126.18,1 0,-35.56 48.62z" />
 </vector>
